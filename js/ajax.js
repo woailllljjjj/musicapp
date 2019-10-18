@@ -17,7 +17,7 @@ var $nav_mou_span = $('.nav-mou-span>span');
 var url = 'https://music.163.com/song/media/outer/url?id=';
 $.ajax({
     type: 'GET',
-    url: 'http://www.arthurdon.top:3000/top/list?idx=1',
+    url: 'https://www.arthurdon.top:10099/top/list?idx=1',
     success: function (data) {
         songsDetail = data.playlist.tracks.concat();
         var str;

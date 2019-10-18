@@ -567,7 +567,7 @@
                 $lry_nav_top.text(data_song.song_name[num_song_i]);
                 $.ajax({
                     type: 'GET',
-                    url: 'http://www.arthurdon.top:3000/lyric?id=' + data_song.point_id,
+                    url: 'https://www.arthurdon.top:10099/lyric?id=' + data_song.point_id,
                     success: function (data) {
                         var zzz = data.lrc.lyric.split(/[\n\r]+/);
                         var aaa = [];
